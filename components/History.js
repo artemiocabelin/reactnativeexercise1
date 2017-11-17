@@ -46,7 +46,7 @@ class History extends Component {
         </View>
     )
 
-    renderEmptyDate() {
+    renderEmptyDate(formattedDate) {
         return (
             <View style={styles.item}>
                 <DateHeader data={formattedDate} />
